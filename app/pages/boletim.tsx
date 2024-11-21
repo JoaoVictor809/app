@@ -23,7 +23,7 @@ export default function boletim() {
                 
             </View>
             <View style={Estilo.image}>
-                <Image source={require('../../assets/images/studant.png')}/>
+                <Image source={require('../../assets/images/student.png')}/>
             </View>
             {/* area do boletim */}
             <View style={Estilo.container02}>

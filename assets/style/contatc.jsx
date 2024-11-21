@@ -1,28 +1,39 @@
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
-    containerImg:{
-        display:"flex",
-        flexDirection:"row",
-        fontFamily:"Oswald_200ExtraLight",
-        alignItems:"center",
-        gap:10,
-        paddingLeft: 10,
-        paddingRight:10
-    },
-    title:{
-        fontFamily:"Oswald_400Regular",
-        fontSize:30,
-    },
-    text:{
-        textAlign:"justify"
-    },
-    containerMain:{
-        display:"flex",
+    container:{
+        width:"100%",
+        height:139,
+        backgroundColor:"#1B98E0",
+        borderBottomEndRadius:20,
+        borderBottomLeftRadius:20,
         alignItems:"center",
         justifyContent:"center",
-        flexDirection:"column",
-        gap:20,
-        paddingTop:50,
+    },
+    imagem:{
+        position:"relative",
+        alignItems:"center",
+        top:-100,
+        zIndex:-1,  
+    },
+    container01:{
+        display:"flex",
+        flexDirection:"row",
+        alignItems:"center",
+        justifyContent: 'flex-end',
+        paddingRight:60,
+        gap:10,
+    },
+    container02:{
+        display:"flex",
+        flexDirection:"row",
+        alignItems:"center",
+        paddingLeft:15,
+        gap:10,
+    },
+    containerMain:{
+        position:"relative",
+        top:-100,
+        gap:50
     }
 })

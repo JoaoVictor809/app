@@ -13,9 +13,10 @@ export default function Index() {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      backgroundColor: "#247BA0",
+      backgroundColor: "#1B98E0",
       width: "100%"
     }}>
+     
       <View style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 100 }}>
         <View style={{ display: "flex", flexDirection: "column", gap: 20, justifyContent: "center", alignItems: "center" }}>
           <Image source={require("../assets/images/logo001.png")} />
